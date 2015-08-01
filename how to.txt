@@ -1,0 +1,10 @@
+. create a folder named 'c:/dev'
+
+ ==================== Maven install ====================
+. create a folder named 'c:/dev/apache'
+. download latest version of maven (apache-maven-3.x.x-bin.zip) at https://maven.apache.org/download.cgi
+. unzip the archive in c:/dev/apache/apache-maven-3.x.x
+. add a windows environement variable name=MAVEN_HOME value=c:/dev/apache/apache-maven-3.x.x
+. add %MAVEN_HOME%\bin to windows PATH
+. open a shell prompt type mvn -version to test this setup
+
