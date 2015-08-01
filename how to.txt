@@ -1,6 +1,6 @@
 . create a folder named 'c:/dev'
 
- ==================== Maven install ====================
+ ==================== Maven install 3.x.x ====================
 . create a folder named 'c:/dev/apache'
 . download latest version of maven (apache-maven-3.x.x-bin.zip) at https://maven.apache.org/download.cgi
 . unzip the archive in c:/dev/apache/apache-maven-3.x.x
@@ -8,3 +8,8 @@
 . add %MAVEN_HOME%\bin to windows PATH
 . open a shell prompt type mvn -version to test this setup
 
+ ==================== Tomcat install 7.0.x ====================
+. create a folder named 'c:/dev/apache'
+. download latest version of tomcat (apache-tomcat-7.0.x-windows-xXX.zip) at https://tomcat.apache.org/download-70.cgi
+. unzip the archive in c:/dev/apache/apache-tomcat-7.0.x
+. add a windows environement variable name=CATALINA_HOME value=c:/dev/apache/apache-tomcat-7.0.x
