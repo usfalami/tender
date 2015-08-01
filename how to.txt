@@ -8,6 +8,12 @@
 . add %MAVEN_HOME%\bin to windows PATH
 . open a shell prompt type mvn -version to test this setup
 
+ ==================== Maven Config ====================
+. create a folder named 'c:/dev/repository'
+. open maven config file "confing.xml"
+. update localRepository value to c:/dev/repository (default value is : ${user.home}/.m2/repository)
+
+
  ==================== Tomcat install 7.0.x ====================
 . create a folder named 'c:/dev/apache'
 . download latest version of tomcat (apache-tomcat-7.0.x-windows-xXX.zip) at https://tomcat.apache.org/download-70.cgi
