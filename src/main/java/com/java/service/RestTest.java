@@ -1,13 +1,19 @@
 package com.java.service;
 
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 
-//@Path("./test")
+
+@Path("/")
 public class RestTest {
 	
-//	@GET
-//	@Produces(MediaType.TEXT_HTML)
+	@GET
+	@Path("/test")
+	@Produces(MediaType.TEXT_HTML)
 	public String getTest(){
-		return "<h1>Rest well setup</h1>";
+		return "<h1>Message from server : </h1> <h4>Rest well setup</h4>";
 	}
 
 }
