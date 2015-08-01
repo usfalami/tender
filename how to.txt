@@ -19,3 +19,11 @@
 . download latest version of tomcat (apache-tomcat-7.0.x-windows-xXX.zip) at https://tomcat.apache.org/download-70.cgi
 . unzip the archive in c:/dev/apache/apache-tomcat-7.0.x
 . add a windows environement variable name=CATALINA_HOME value=c:/dev/apache/apache-tomcat-7.0.x
+
+
+===================== Compile & run ==========================
+
+cd c:/dev/workspace/tender
+mvn clean install
+mvn tomcat:run-war-only
+url : http://127.0.0.1:8080/tender/
