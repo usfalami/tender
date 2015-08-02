@@ -1,10 +1,10 @@
-package com.java.bean;
+package com.tender.bean;
 
 public abstract class Actor {
 
 	protected Long id;
 	
-	protected String name;
+	protected String societyName;
 	protected Adress adress;
 	protected String phone;
 	protected String mobile;

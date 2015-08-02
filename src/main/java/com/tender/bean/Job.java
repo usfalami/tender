@@ -1,4 +1,4 @@
-package com.java.bean;
+package com.tender.bean;
 
 public class Job {
 	
