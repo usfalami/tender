@@ -46,8 +46,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="com.java.bean.Particular" project="tender" 
-    file="/tender/src/main/java/com/java/bean/Particular.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="com.java.bean.Private" project="tender" 
+    file="/tender/src/main/java/com/java/bean/Private.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="250" y="300"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
