@@ -1,4 +1,4 @@
-package com.tender.java.bean;
+package com.tender.bean;
 
 import java.io.File;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.tender.java.bean;
+package com.tender.bean;
 
 public class Supplier extends Actor{
 
