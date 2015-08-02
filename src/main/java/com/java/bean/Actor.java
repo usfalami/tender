@@ -9,7 +9,7 @@ public abstract class Actor {
 	protected String phone;
 	protected String mobile;
 	protected String fax;
-	
 	protected Job[] jobs;
+	protected boolean isProvider;
 	
 }
