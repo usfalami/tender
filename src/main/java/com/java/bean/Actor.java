@@ -10,7 +10,6 @@ public abstract class Actor {
 	protected String mobile;
 	protected String fax;
 	protected Job[] jobs;
-	protected boolean isProvider;
 	protected String url;  // If the actor is a professional we set it else we not
 	protected String siret;  // If the actor is a professional we set it else we not
 	
