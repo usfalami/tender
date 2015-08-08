@@ -1,7 +1,9 @@
 package com.tender.bean;
 
+import java.util.Map;
+
 public class Properties {
 	
-	protected List<Property,String> properties;
+	protected Map<Property,String> properties;
 
 }

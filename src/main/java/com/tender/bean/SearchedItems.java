@@ -1,18 +1,19 @@
 package com.tender.bean;
 
 import java.util.List;
+import java.util.Map;
 
 public class SearchedItems {
 	
-	protected List<Item> items;
+	protected Map<Item,Properties> items;
 
-	public List<Item> getItems() {
+	public Map<Item, Properties> getItems() {
 		return items;
 	}
 
-	public void setItems(List<Item> items) {
+	public void setItems(Map<Item, Properties> items) {
 		this.items = items;
 	}
-	
+
 	
 }
