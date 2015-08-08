@@ -12,5 +12,6 @@ public class Tender extends Action{
 	protected Adress executionAdress;
     private List<File> documents;
     private String description;
+    protected SearchedItems searchedItems;
 
 }
