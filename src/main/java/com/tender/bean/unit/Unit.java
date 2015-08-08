@@ -49,6 +49,10 @@ public class Unit<T extends Enum<?>> { // force Enum<?> implements Mesure !?
 	public static enum ENERGY implements Mesure {
 		W, KW; //.....
 	}
+	public static enum TIME implements Mesure {
+		MS, S, M, H, D, W, Mo, Y, De; 
+	}
+	
 	
 	public static interface Mesure {}
 	
