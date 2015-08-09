@@ -1,6 +1,8 @@
 package com.tender.bean.unit;
 
 public interface Metric {
+	
+	String getFullName();
 
 	public static enum LENGTH implements Metric {
 		MM("millimetre"), CM(""), DM(""), M(""), DAM(""), HM(""), KM("kilometre");
@@ -10,7 +12,7 @@ public interface Metric {
 		LENGTH(String name){
 			fullName= name;
 		}
-		public String getFullName() {
+		@Override public String getFullName() {
 			return fullName;
 		}
 	}
@@ -22,7 +24,7 @@ public interface Metric {
 		AREA(String name){
 			fullName= name;
 		}
-		public String getFullName() {
+		@Override public String getFullName() {
 			return fullName;
 		}
 	}
@@ -34,7 +36,7 @@ public interface Metric {
 		VOLUME(String name){
 			fullName= name;
 		}
-		public String getFullName() {
+		@Override public String getFullName() {
 			return fullName;
 		}
 	}
@@ -46,7 +48,7 @@ public interface Metric {
 		WEIGHT(String name){
 			fullName= name;
 		}
-		public String getFullName() {
+		@Override public String getFullName() {
 			return fullName;
 		}
 	}
@@ -58,7 +60,7 @@ public interface Metric {
 		CAPACITY(String name){
 			fullName= name;
 		}
-		public String getFullName() {
+		@Override public String getFullName() {
 			return fullName;
 		}
 	}
@@ -70,7 +72,7 @@ public interface Metric {
 		DATA(String name){
 			fullName= name;
 		}
-		public String getFullName() {
+		@Override public String getFullName() {
 			return fullName;
 		}
 	}
@@ -82,20 +84,19 @@ public interface Metric {
 		ENERGY(String name){
 			fullName= name;
 		}
-		public String getFullName() {
+		@Override public String getFullName() {
 			return fullName;
 		}
 	}
 	public static enum TIME implements Metric {
-		
-		MS(""), S(""), M(""), H(""), D(""), W(""), Mo(""), Y(""), De(""), C("");
+		MS("milliseconde"), S("second"), M("minute"), H("hour"), D("day"), W("week"), Mo("month"), Y("year"), De("decad"), C("centry");
 		
 		private String fullName;
 		
 		TIME(String name){
 			fullName= name;
 		}
-		public String getFullName() {
+		@Override public String getFullName() {
 			return fullName;
 		}
 	}
