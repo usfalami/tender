@@ -4,6 +4,6 @@ import java.util.Map;
 
 public class Estimation {
 	
-	protected Map<Item, composedProperty<Enum<?>>> estimationMap;
+	protected Map<Item,price<Enum<?>>> estimationMap;
 
 }
