@@ -1,9 +1,12 @@
 package com.tender.bean;
 
-public class Contact {
+import com.tender.payment.Account;
 
-	private Actor actor;
+public class Contact {
+	
 	private User user;
+	private Actor actor;
+	private Account account;
 	private long id;
 	private String firstName;
 	private String lastName;
@@ -11,7 +14,22 @@ public class Contact {
 	private String fonction;
 	private String service;
 	
-	
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public Account getAccount() {
+		return account;
+	}
+
+	public void setAccount(Account account) {
+		this.account = account;
+	}
+
 	public String getService() {
 		return service;
 	}
