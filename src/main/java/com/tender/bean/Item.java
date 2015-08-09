@@ -1,10 +1,10 @@
 package com.tender.bean;
 
-import com.tender.bean.unit.Mesure.CAPACITY;
-import com.tender.bean.unit.Mesure.DATA;
-import com.tender.bean.unit.Mesure.ENERGY;
-import com.tender.bean.unit.Mesure.VOLUME;
-import com.tender.bean.unit.Mesure.WEIGHT;
+import com.tender.bean.unit.Metric.CAPACITY;
+import com.tender.bean.unit.Metric.DATA;
+import com.tender.bean.unit.Metric.ENERGY;
+import com.tender.bean.unit.Metric.VOLUME;
+import com.tender.bean.unit.Metric.WEIGHT;
 import com.tender.bean.unit.Unit;
 
 public class Item {

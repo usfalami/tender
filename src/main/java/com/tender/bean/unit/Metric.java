@@ -1,8 +1,8 @@
 package com.tender.bean.unit;
 
-public interface Mesure {
+public interface Metric {
 
-	public static enum LENGTH implements Mesure {
+	public static enum LENGTH implements Metric {
 		MM("millimetre"), CM(""), DM(""), M(""), DAM(""), HM(""), KM("kilometre");
 		
 		private String fullName;
@@ -14,7 +14,7 @@ public interface Mesure {
 			return fullName;
 		}
 	}
-	public static enum AREA implements Mesure {
+	public static enum AREA implements Metric {
 		MM2(""), CM2(""), DM2(""), M2(""), DAM2(""), HM2(""), KM2("");
 		
 		private String fullName;
@@ -26,7 +26,7 @@ public interface Mesure {
 			return fullName;
 		}
 	}
-	public static enum VOLUME implements Mesure {
+	public static enum VOLUME implements Metric {
 		MM3(""), CM3(""), DM3(""), M3(""), DAM3(""), HM3(""), KM3("");
 		
 		private String fullName;
@@ -38,7 +38,7 @@ public interface Mesure {
 			return fullName;
 		}
 	}
-	public static enum WEIGHT implements Mesure {
+	public static enum WEIGHT implements Metric {
 		MG("milligram"), CG(""), DG(""), G(""), DAG(""), HG(""), KG("kilogram"), KGx10(""), Q(""), T("");
 		
 		private String fullName;
@@ -50,7 +50,7 @@ public interface Mesure {
 			return fullName;
 		}
 	}
-	public static enum CAPACITY implements Mesure  {
+	public static enum CAPACITY implements Metric  {
 		ML(""), CL(""), DL(""), L(""), DAL(""), HL("");
 		
 		private String fullName;
@@ -62,7 +62,7 @@ public interface Mesure {
 			return fullName;
 		}
 	}
-	public static enum DATA implements Mesure {
+	public static enum DATA implements Metric {
 		B(""), O(""), KO(""), MO(""), GO(""), TO(""), Kio(""), Mio(""), Gio(""), Tio("");
 		
 		private String fullName;
@@ -74,7 +74,7 @@ public interface Mesure {
 			return fullName;
 		}
 	}
-	public static enum ENERGY implements Mesure {
+	public static enum ENERGY implements Metric {
 		W(""), KW(""); //.....
 		
 		private String fullName;
@@ -86,7 +86,7 @@ public interface Mesure {
 			return fullName;
 		}
 	}
-	public static enum TIME implements Mesure {
+	public static enum TIME implements Metric {
 		
 		MS(""), S(""), M(""), H(""), D(""), W(""), Mo(""), Y(""), De(""), C("");
 		
