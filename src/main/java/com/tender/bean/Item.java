@@ -1,11 +1,11 @@
 package com.tender.bean;
 
+import com.tender.bean.unit.Metric.CAPACITY;
+import com.tender.bean.unit.Metric.DATA;
+import com.tender.bean.unit.Metric.ENERGY;
+import com.tender.bean.unit.Metric.VOLUME;
+import com.tender.bean.unit.Metric.WEIGHT;
 import com.tender.bean.unit.Unit;
-import com.tender.bean.unit.Unit.CAPACITY;
-import com.tender.bean.unit.Unit.DATA;
-import com.tender.bean.unit.Unit.ENERGY;
-import com.tender.bean.unit.Unit.VOLUME;
-import com.tender.bean.unit.Unit.WEIGHT;
 
 public class Item {
 
@@ -16,11 +16,11 @@ public class Item {
 		// unit can be :
 		
 		Unit<?> a = null;
-		System.out.println(a = new Unit<WEIGHT>(WEIGHT.KG));
-		System.out.println(a = new Unit<DATA>(DATA.MO));
-		System.out.println(a = new Unit<VOLUME>(VOLUME.M3));
-		System.out.println(a = new Unit<ENERGY>(ENERGY.W));
-		System.out.println(a = new Unit<CAPACITY>(CAPACITY.ML));
+		System.out.println((a = new Unit<WEIGHT>(WEIGHT.KG)) + " " + a.toReelValue());
+		System.out.println((a = new Unit<DATA>(DATA.MO)) + " " + a.toReelValue());
+		System.out.println((a = new Unit<VOLUME>(VOLUME.M3)) + " " + a.toReelValue());
+		System.out.println((a = new Unit<ENERGY>(ENERGY.W)) + " " + a.toReelValue());
+		System.out.println((a = new Unit<CAPACITY>(CAPACITY.ML)) + " " + a.toReelValue());
 	}
 	
 	
